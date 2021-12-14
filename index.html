@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myRobot *EDDY*</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="headLine">
+        <h1>My Robot &#9786; Eddy</h1>
+    </div>
+    <div id="logoBox">
+        <img id="logo" src="img/politronlogo21_2.png" alt="logo"></img>
+    </div>
+
+<section id="posContainer">
+    <!-- POSITION X -->
+    <div id="XposBox">
+        <span>Position X: </span>
+        <span id="posX">0</span>
+    </div>
+<!--            <br/>      -->
+    <!-- POSITION Y -->
+    <div id="YposBox">
+        <span>Position Y: </span>
+        <span id="posY">0</span>
+    </div>
+</section>
+
+    <!-- ORIENTIERUNG -->
+<section id="headingBox">
+    <span id="himmelsRichtung">Himmelsrichtung: </span>
+    <span id="heading">EAST</span>
+</section>
+
+<section id="canvasBox">
+    <!--TODO: Eine Canvas -->
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+</section>
+
+<section id="buttonBox">
+    <!-- Button für Move -->
+    <button id="moveButton" onclick="step()">
+        MOVE!
+    </button>
+    <!-- Button für Rotation-->
+    <button id="rotateButton" onclick="rotate()">
+        ROTATE!
+    </button>
+</section>
+    <!-- JAVASCRIPT VERKNÜPFUNG-->
+    <script src="index.js">  </script>
+</body>
+</html>

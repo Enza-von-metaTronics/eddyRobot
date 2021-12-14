@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(163, 191, 243);
+    font-size: 1.1rem;
+    
+}
+body{
+    background-color: rgb(14, 10, 39);
+}
+#logoBox{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.4rem;
+}
+h1{
+    text-align: center;   
+    font-size: 2rem;
+    color: rgba(179, 179, 250, 0.788);
+    border: 1px dotted cyan;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+    width: 40vw;
+    padding: 1.2rem;
+    background-color: rgb(26, 53, 53);
+}
+#headLine{
+    display: grid;
+    justify-content: center;
+}
+#posContainer{
+    display: grid;
+    justify-content: center;
+
+}
+#himmelsRichtung{
+    color: rgba(135, 135, 228, 0.911);    
+    font-size: larger;
+    font-weight: 600;
+}
+#headingBox{
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    color: rgba(104, 228, 187, 0.678);
+    font-size: larger;
+    font-weight: 800;
+    align-items: flex-end;
+}
+#posX , #posY{
+    color: rgba(104, 228, 187, 0.952);
+    font-size: 1rem;
+    font-weight: 800;
+}
+#canvasBox{
+    display: grid;
+    justify-content: center;
+    margin-top: 1.1rem;
+    margin-bottom: .8rem;
+}
+#myCanvas{
+    width: 300px;
+    height: 300px;
+    border: 1px dotted rgb(30, 240, 240);
+    background-color: rgb(26, 53, 53);
+}
+#buttonBox{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: .3rem;
+    padding: .1rem;
+    font-weight: 700;
+    color: rgb(31, 153, 153);
+    width: 7rem;
+    background-color: rgb(166, 240, 240);
+    border-radius: 25px;
+    
+} button:hover{
+    color: rgba(15, 201, 201, 0.979);
+}
